@@ -11,5 +11,5 @@ If no command line arguments are used, ZenSleep launches a 20-second countdown w
 `/etc/udev/rules.d/zensleep.rules`
 ```vim
 # Execute zensleep when battery level drops to 4%
-KERNEL=="BAT1", SUBSYSTEM==:power_supply", ATTR{status}=="Discharging", ATTR{capacity}=="4", RUN+="/home/kyle/bin/zensleep"
+KERNEL=="BAT1", SUBSYSTEM=="power_supply", ATTR{status}=="Discharging", ATTR{capacity}=="4", RUN+="/home/kyle/bin/zensleep"
 ```
