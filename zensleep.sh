@@ -6,6 +6,7 @@
 #     overriden with the -t flag, the sleep command can be overriden with the
 #     -s flag.  If the -p flag is used, the script only executes if the level of
 #     the battery's charge matches the value provided
+# Copyright (C) 2014 Kyle J. Kneitinger
 
 # Default values
 sleepCommand=pm-suspend
