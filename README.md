@@ -2,7 +2,7 @@
 
 A lightweight [zenity](https://en.wikipedia.org/wiki/Zenity) based sleep-counter for Linux.
 
-![ScreenShot](zensleep.jpg)
+![Zensleep screenshot](https://i.imgur.com/O5XdQvn.jpg)
 
 ##Usage
 ###Default
